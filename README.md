@@ -49,6 +49,19 @@ src/test/resources
 ```
 
 ---
+## 🚀 Features Automated
+
+### ✅ Functional Flows
+
+* User Registration
+* User Login (Valid & Invalid)
+* Add Product to Cart
+* Shopping Cart Operations
+* Checkout Process
+* Order Confirmation
+* PDF Invoice Download
+
+---
 
 ## 📸 Screenshots
 
@@ -60,21 +73,6 @@ Screenshots are captured during execution and stored in:
 
 ---
 
-## 🚀 How to Run
-
-1. Clone the repository:
-
-```
-git clone https://github.com/YOUR-USERNAME/DemoWebShop-AutomationTesting.git
-```
-
-2. Run using Maven:
-
-```
-mvn test
-```
-
----
 
 ## 👩‍💻 Author
 
