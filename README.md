@@ -1,40 +1,81 @@
-Demo Web Shop Automation
-📌 Project Overview
+# Demo Web Shop Automation
 
-This project contains end-to-end test automation framework for the Demo Web Shop application.
-It is built using Selenium, TestNG, Java, and follows the Page Object Model (POM) design pattern.
+## 📌 Project Overview
 
-The framework automates key user workflows such as registration, login, product selection, cart management, checkout, and invoice download.
+This project contains an end-to-end test automation framework for the Demo Web Shop application.
+It is built using **Selenium, TestNG, Java**, and follows the **Page Object Model (POM)** design pattern.
 
+The framework automates:
 
-🛠️ Tech Stack
-Java
-Selenium WebDriver
-TestNG
-Maven
-Apache POI (Excel Data-Driven Testing)
-AutoIT (File handling for PDF download)
+* Registration
+* Login
+* Product selection
+* Cart management
+* Checkout
+* Invoice download
 
+---
 
-🧱 Framework Design
+## 🛠️ Tech Stack
 
-The project follows Page Object Model (POM) for better maintainability and reusability.
+* Java
+* Selenium WebDriver
+* TestNG
+* Maven
+* Apache POI (Excel Data-Driven Testing)
+* AutoIT (PDF handling)
 
-📁 Project Structure
+---
+
+## 🧱 Framework Design
+
+The project follows **Page Object Model (POM)** for better maintainability and reusability.
+
+---
+
+## 📁 Project Structure
+
+```
 src/main/java
    ├── pages        → Page classes (UI actions)
    └── utils        → Reusable utilities (Excel, Screenshot)
 
 src/test/java
-   ├── base         → Base setup (WebDriver initialization)
+   ├── base         → WebDriver setup
    └── tests        → Test classes
 
 src/test/resources
    └── testdata     → Excel files for data-driven testing
+```
 
+---
 
-📸 Screenshots
+## 📸 Screenshots
 
 Screenshots are captured during execution and stored in:
 
+```
 /screenshots
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/YOUR-USERNAME/DemoWebShop-AutomationTesting.git
+```
+
+2. Run using Maven:
+
+```
+mvn test
+```
+
+---
+
+## 👩‍💻 Author
+
+Vaishnavi
