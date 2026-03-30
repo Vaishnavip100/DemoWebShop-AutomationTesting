@@ -15,7 +15,7 @@ public class PdfInvoicePage {
     private By pdfInvoiceBtn = By.linkText("PDF Invoice");
     public void downloadPdfInvoice() throws Exception {
         driver.findElement(pdfInvoiceBtn).click();
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         Runtime.getRuntime().exec(
             "C:\\Users\\91996\\OneDrive\\Documents\\PdfInvoice.exe"
         );
